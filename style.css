@@ -1,0 +1,50 @@
+body {
+    background-color: #8bacd5;
+    font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+    color: #ffffa4;
+    font-size: 70px;
+    text-shadow: 2px 2px #de1818;
+    text-align: center;
+}
+
+.pokeTainer {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    height: 100%;
+    align-items: center;
+}
+
+.pokeTainer:first-of-type {
+    margin-top: 50px;
+    border-top: 3px solid #d5d56a;
+}
+
+#pokeName {
+    font-size: 45px;
+}
+
+#pokeImg {
+    height: 300px;
+}
+
+#movesHeading{
+    margin-left: 10px;
+    font-size: 28px;
+    color: #31526a;
+    border-bottom: 2px solid #d5d56a;
+    display: none;
+}
+
+#movesList {
+    font-size: 20px;
+    color: #31526a;
+    text-shadow: 1px 1px #d5d56a;
+}
+
+
+
+

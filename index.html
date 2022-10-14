@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokedex</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto&family=Silkscreen:wght@400;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <h1>Pokedex</h1>
+
+        <form id="searchBar">
+            <input type="text" id="inputBar" value="" placeholder="Choose your Pokemon"/>
+            <input type="button" id="searchButton" value="Click here"/>
+        </form>
+        <div class="pokeTainer">
+            <h2 id="pokeName"></h2>
+        </div>
+        <div class="pokeTainer">
+            <img id="pokeImg" src=""></img>
+            <div id="pokeMovesTainer">
+                <div id="movesHeading">Moves:</div>
+                <ul id="movesList">
+                </ul>
+            </div>
+        </div>
+        <div class="pokeTainer">
+            <div id="evolutionsDiv">Evolves To
+
+            </div>
+        </div>
+        
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
